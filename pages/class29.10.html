@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- CSS only -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="test.css"/>
+    <link rel="stylesheet" type="text/css" href="self.css"/>
+    <link rel="stylesheet" type="text/css" href="katex.css"/>
+    <title>Задачи</title>
+</head>
+<body class="container">
+<a href="../index.html">Главная</a>
+<hr>
+<div class="step-wrapper">
+    <div class="step-inner page-fragment">
+        <div id="ember7792" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> <br>
+  Написать программу выводящую на экран первые <span class="math-tex"><span><span class="katex"><span
+                    class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation
+                    encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html"
+                                                                                                 aria-hidden="true"><span
+                    class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span
+                    class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span> натуральных чисел.
+    </p>
+  
+  <p><b>Входные данные:</b><br>
+  Одно целое число N
+  </p>
+  
+  <p><b>Выходные данные: </b><br>
+  Первые N натуральных чисел, записанных через пробел.
+  </p></span></div>
+
+        <div class="step-text-wrapper">
+            <p class="step-text__limit-title">
+                <strong>Пример ввода в консоль<!----> :</strong>
+            </p>
+            <pre class="step-text__limit-value">8
+  </pre>
+            <p class="step-text__limit-title">
+                <strong>Пример вывода консоли<!----> :</strong>
+            </p>
+            <pre class="step-text__limit-value">1 2 3 4 5 6 7 8</pre>
+
+            <!---->      </div>
+    </div>
+</div>
+<hr>
+<div class="step-wrapper">
+    <div class="step-inner page-fragment">
+        <div id="ember7810" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> <br>
+ Усовершенствуйте программу, написанную на прошлом шаге. Теперь необходимо вывести все натуральные числа из промежутка <span
+                    class="math-tex"><span><span class="katex"><span class="katex-mathml"><math
+                    xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>K</mi><mo
+                    separator="true">,</mo><mi>M</mi><mo stretchy="false">]</mo><mo separator="true">,</mo><mo
+                    stretchy="false">(</mo><mi>K</mi><mo>&lt;</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation
+                    encoding="application/x-tex"> [K, M], (K \lt  M) </annotation></semantics></math></span><span
+                    class="katex-html" aria-hidden="true"><span class="base"><span class="strut"
+                                                                                   style="height: 1em; vertical-align: -0.25em;"></span><span
+                    class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span
+                    class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span
+                    class="mord mathnormal" style="margin-right: 0.10903em;">M</span><span class="mclose">]</span><span
+                    class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span
+                    class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span
+                    class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span
+                    class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span
+                    class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal"
+                                                                                             style="margin-right: 0.10903em;">M</span><span
+                    class="mclose">)</span></span></span></span></span></span>
+  </p>
+
+<p><b>Входные данные:</b><br>
+Два целых числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math
+            xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo separator="true">,</mo><mi>M</mi></mrow><annotation
+            encoding="application/x-tex"> K, M </annotation></semantics></math></span><span class="katex-html"
+                                                                                            aria-hidden="true"><span
+            class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span
+            class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span class="mpunct">,</span><span
+            class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal"
+                                                                          style="margin-right: 0.10903em;">M</span></span></span></span></span></span>. При этом <span
+            class="math-tex"><span><span class="katex"><span class="katex-mathml"><math
+            xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation
+            encoding="application/x-tex"> M </annotation></semantics></math></span><span class="katex-html"
+                                                                                         aria-hidden="true"><span
+            class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span
+            class="mord mathnormal" style="margin-right: 0.10903em;">M</span></span></span></span></span></span> больше <span
+            class="math-tex"><span><span class="katex"><span class="katex-mathml"><math
+            xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi></mrow><annotation
+            encoding="application/x-tex"> K </annotation></semantics></math></span><span class="katex-html"
+                                                                                         aria-hidden="true"><span
+            class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span
+            class="mord mathnormal" style="margin-right: 0.07153em;">K</span></span></span></span></span></span>.
+</p>
+
+<p><b>Выходные данные: </b><br>
+Натуральные числа в порядке возрастания принадлежащие промежутку <span class="math-tex"><span><span class="katex"><span
+            class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>K</mi><mo
+            separator="true">,</mo><mi>M</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex"> [K,M] </annotation></semantics></math></span><span
+            class="katex-html" aria-hidden="true"><span class="base"><span class="strut"
+                                                                           style="height: 1em; vertical-align: -0.25em;"></span><span
+            class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span
+            class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span
+            class="mord mathnormal" style="margin-right: 0.10903em;">M</span><span class="mclose">]</span></span></span></span></span></span>. Числа нужно разделять одним пробелом.
+</p>
+
+<p><span style="color: #64b0f4;">
+  <b>Подсказки:</b>
+</span><br>
+Натуральные числа начинаются с <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math
+            xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation
+            encoding="application/x-tex"> 1 </annotation></semantics></math></span><span class="katex-html"
+                                                                                         aria-hidden="true"><span
+            class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span
+            class="mord">1</span></span></span></span></span></span> <br>
+Целые числа могут быть и отрицательными.
+</p></span></div>
+
+        <div class="step-text-wrapper">
+            <p class="step-text__limit-title">
+                <strong>Пример ввода в консоль 1:</strong>
+            </p>
+            <pre class="step-text__limit-value">3 12
+</pre>
+            <p class="step-text__limit-title">
+                <strong>Пример вывода консоли 1:</strong>
+            </p>
+            <pre class="step-text__limit-value">3 4 5 6 7 8 9 10 11 12</pre>
+            <p class="step-text__limit-title">
+                <strong>Пример ввода в консоль 2:</strong>
+            </p>
+            <pre class="step-text__limit-value">-3 3
+</pre>
+            <p class="step-text__limit-title">
+                <strong>Пример вывода консоли 2:</strong>
+            </p>
+            <pre class="step-text__limit-value">1 2 3</pre>
+
+            <!---->      </div>
+    </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember7828" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p><br>
+Усовершенствовать программму, написанную на прошлом шаге: дополнительно на отдельной строке вывести количество напечатанных чисел.</p>
+
+<p><strong>Входные данные:</strong><br>
+Два целых числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo separator="true">,</mo><mi>M</mi></mrow><annotation encoding="application/x-tex"> K, M </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">M</span></span></span></span></span></span>. При этом <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex"> M </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">M</span></span></span></span></span></span> больше <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi></mrow><annotation encoding="application/x-tex"> K </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span></span></span></span></span></span>.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Натуральные числа в порядке возрастания, принадлежащие промежутку <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>K</mi><mo separator="true">,</mo><mi>M</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex"> [K,M] </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right: 0.07153em;">K</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">M</span><span class="mclose">]</span></span></span></span></span></span>. Числа нужно разделять одним пробелом.<br>
+На новой строке вывести количество выведенных натуральных чисел.</p>
+
+<p>NB! На конце первой строки обязательно должен ставиться пробел.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">3 12
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">3 4 5 6 7 8 9 10 11 12
+10</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">-3 3
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">1 2 3
+3</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember8402" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>Вывести через пробел все целые числа из промежутка <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>A</mi><mo separator="true">,</mo><mi>B</mi><mo stretchy="false">]</mo><mo separator="true">,</mo><mo stretchy="false">(</mo><mi>A</mi><mo>&lt;</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> [A,B], (A \lt B) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mclose">]</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span></span></span></span></span></span> в обратном порядке: от <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex"> B </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span></span></span></span></span></span> до <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex"> A </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal">A</span></span></span></span></span></span>.
+<p><b>Входные данные:</b><br>
+Два целых числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo separator="true">,</mo><mi>B</mi></mrow><annotation encoding="application/x-tex"> A, B </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span></span></span></span></span></span>, при этом <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>&lt;</mo><mi>B</mi></mrow><annotation encoding="application/x-tex"> A\lt B </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.72243em; vertical-align: -0.0391em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span></span></span></span></span></span>.
+</p>
+
+<p><b>Выходные данные: </b><br>
+Целые числа из промежутка от <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>A</mi><mo separator="true">,</mo><mi>B</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex"> [A,B] </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mclose">]</span></span></span></span></span></span>, записанные через пробел в обратном порядке.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3 12
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">12 11 10 9 8 7 6 5 4 3</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember6019" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>
+
+<div><div><p>По данному целому числу N распечатайте все квадраты натуральных чисел, не превосходящие N, в порядке возрастания.</p></div></div><div><div><b>Формат входных данных</b></div><div></div></div>
+
+<div><p>Вводится натуральное число.</p></div><div><div><b>Формат выходных данных</b></div><div>
+
+<div><div><p>Выведите ответ на задачу.</p></div></div></div></div>
+
+</span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">50</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">1 4 9 16 25 36 49</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember6091" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>
+
+<div><p>Программа получает на вход последовательность целых неотрицательных чисел, каждое число записано в отдельной строке. Последовательность завершается числом 0, при считывании которого программа должна закончить свою работу и вывести количество членов последовательности (не считая завершающего числа 0).<br>Числа, следующие за числом 0, считывать не нужно.</p></div><div><div><b>Формат входных данных</b></div><div></div></div>
+
+Вводится последовательность целых чисел, заканчивающаяся числом 0.
+
+<div><div><b>Формат выходных данных</b></div><div>
+
+Выведите ответ на задачу.
+
+<br></div></div>
+
+</span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">1
+7
+9
+0
+5</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember6112" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>
+
+<div><p>
+
+
+
+Определите сумму всех элементов последовательности, завершающейся числом 0.
+
+
+
+</p></div><div><div><b>Формат входных данных</b></div><div></div></div>
+
+Вводится последовательность целых чисел, оканчивающаяся числом 0 (само число 0 в последовательность не входит, а служит как признак ее окончания.
+
+<div><div><b>Формат выходных данных</b></div><div>
+
+Выведите ответ на задачу.
+
+<br></div></div>
+
+</span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3
+6
+8
+0</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">17</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember6133" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>
+
+<div><p>
+
+Последовательность состоит из натуральных чисел и завершается числом 0. Определите значение наибольшего элемента последовательности.
+
+</p></div><div><div><b>Формат входных данных</b></div><div></div></div>
+
+Вводится последовательность целых чисел, оканчивающаяся числом 0 (само число 0 в последовательность не входит, а служит как признак ее окончания).
+
+<div><div><b>Формат выходных данных</b></div><div>
+
+Выведите ответ на задачу.
+
+<br></div></div>
+
+</span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">1
+7
+9
+0</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">9</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember7663" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>
+
+<div><p>
+
+Последовательность состоит из натуральных чисел и завершается числом 0. Определите значение второго по величине элемента в этой последовательности, то есть элемента, который будет наибольшим, если из последовательности удалить наибольший элемент.
+
+</p></div><div><div><b>Формат входных данных</b></div><div></div></div>
+
+Вводится последовательность целых чисел, оканчивающаяся числом 0 (само число 0 в последовательность не входит, а служит как признак ее окончания).
+
+<div><div><b>Формат выходных данных</b></div><div>
+
+Выведите ответ на задачу.
+
+<br></div></div>
+
+</span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">4
+4
+2
+3
+0</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">4</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">2
+1
+0</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">1</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember9063" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> Факториал. <br>
+  </p>
+Для целого числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo stretchy="false">(</mo><mn>0</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>12</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> k ( 0 \le k \le  12) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mopen">(</span><span class="mord">0</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.83041em; vertical-align: -0.13597em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">12</span><span class="mclose">)</span></span></span></span></span></span>  посчитать <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo stretchy="false">!</mo></mrow><annotation encoding="application/x-tex"> k! </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mclose">!</span></span></span></span></span></span>.
+<p><b>Входные данные:</b><br>
+Одно целое число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex"> k </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span></span></span></span></span></span>, <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>12</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">  (0 \le k \le  12) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord">0</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.83041em; vertical-align: -0.13597em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">12</span><span class="mclose">)</span></span></span></span></span></span>.
+</p>
+
+<p><b>Выходные данные: </b><br>
+Значение факториала числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex"> k </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span></span></span></span></span></span>.
+</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">4
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">24</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember9081" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Числа Фибоначчи <br>
+Последовательность чисел Фибоначчи определяется следующим образом:
+</p><span class="math-tex"><span><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo separator="true">,</mo><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex"> F_1 = 1, F_2 = 1, </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.83888em; vertical-align: -0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span></span></span></span></span></span></span>
+<span class="math-tex"><span><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>F</mi><mn>3</mn></msub><mo>=</mo><msub><mi>F</mi><mn>1</mn></msub><mo>+</mo><msub><mi>F</mi><mn>2</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>F</mi><mi>k</mi></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>k</mi><mo>−</mo><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>F</mi><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msub><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> F_3 = F_1 + F_2,  \dots , F_k = F_{k-2} + F_{k-1}. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.336108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right: 0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.891661em; vertical-align: -0.208331em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.336108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right: 0.03148em;">k</span><span class="mbin mtight">−</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.208331em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.891661em; vertical-align: -0.208331em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.336108em;"><span class="" style="top: -2.55em; margin-left: -0.13889em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right: 0.03148em;">k</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.208331em;"><span class=""></span></span></span></span></span></span><span class="mord">.</span></span></span></span></span></span></span>
+
+Посчитать значение <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>-го числа Фибоначчи.
+
+
+<p><b>Входные данные:</b><br>
+Одно натуральное число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>, <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>N</mi><mo>≤</mo><mn>45</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> (N \le 45 ) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">45</span><span class="mclose">)</span></span></span></span></span></span>
+</p>
+
+<p><b>Выходные данные: </b><br>
+Значение <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>-го числа Фибоначчи.
+</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">45
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">1134903170</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember9099" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> <br>
+Вывести все числа из промежутка <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>A</mi><mo separator="true">;</mo><mi>B</mi><mo stretchy="false">]</mo><mo separator="true">,</mo><mo stretchy="false">(</mo><mi>B</mi><mo>&gt;</mo><mi>A</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> [A;B], (B \gt A) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal">A</span><span class="mpunct">;</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mclose">]</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal">A</span><span class="mclose">)</span></span></span></span></span></span>. При этом число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex"> A </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal">A</span></span></span></span></span></span> должно выводиться <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex"> 1 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">1</span></span></span></span></span></span> раз, число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex"> A+1 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">1</span></span></span></span></span></span> -- два раза, <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex"> A+2 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">2</span></span></span></span></span></span> -- три раза и т.д.
+  </p>
+
+<p><b>Входные данные:</b><br>
+Два натуральных числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo separator="true">,</mo><mi>B</mi><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex"> A,B, </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mpunct">,</span></span></span></span></span></span> таких, что <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>B</mi><mo>&gt;</mo><mi>A</mi><mo stretchy="false">)</mo><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> (B \gt A). </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal">A</span><span class="mclose">)</span><span class="mord">.</span></span></span></span></span></span>
+</p>
+
+<p><b>Выходные данные: </b><br>
+Число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex"> A </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal">A</span></span></span></span></span></span>, два числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex"> A+1 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">1</span></span></span></span></span></span>, три числа <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding="application/x-tex"> A+2 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">2</span></span></span></span></span></span> и т.д. Каждое число занимает поле шириной в 5 символа, выравнивание по правому краю.
+</p>
+
+<p><span style="color: #64b0f4;">
+  <b>Подсказка:</b>
+</span><br>
+используйте вложенные циклы.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Пример ввода в консоль<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3 7
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Пример вывода консоли<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3    4    4    5    5    5    6    6    6    6    7    7    7    7    7</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<hr>
+</body>
+</html>
