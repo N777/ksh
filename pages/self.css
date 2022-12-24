@@ -1,3 +1,9 @@
 hr {
     border: 10px solid black
 }
+
+.code {
+    border: solid black;
+    display: block;
+    white-space: pre;
+}

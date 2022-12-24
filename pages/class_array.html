@@ -327,6 +327,31 @@
 
         <!---->
       </div>
+      <code class="code">
+#define _CRT_SECURE_NO_WARNINGS
+#include &lt;stdio.h&gt;
+#include &lt;cstdlib&gt;
+#include &lt;locale&gt;
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	 N = 6;
+	bool est_no = 0;
+	int array[] = {1, 2, 3, 3, 3, 1};
+	for(int counter = 0; counter < N/2; counter += 1){
+        if(array[counter] != array[N-1-counter]){
+          printf("NO");
+          est_no = 1;
+        }
+    }
+    if (est_no == 0){
+        printf("YES");
+    }
+
+}
+
+      </code>
     </div>
     <hr />
     <div class="step-inner page-fragment">
