@@ -154,6 +154,32 @@
             <pre class="step-text__limit-value">YES</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    bool polozitelnaya = true;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < 0) {
+            polozitelnaya = false;
+        }
+    }
+    if (polozitelnaya) {
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
