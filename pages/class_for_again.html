@@ -456,6 +456,30 @@ int main()
             <pre class="step-text__limit-value">2729 2031 3234 3337 2484 5051 </pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    bool start_print = false;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (start_print) {
+            printf("%d ", n);
+        }
+        if (n == 2517) {
+            start_print = true;
+        }
+    }
+
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
