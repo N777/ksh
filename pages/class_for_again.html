@@ -317,6 +317,34 @@ int main()
             <pre class="step-text__limit-value">NO</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    int prev = 0;
+    bool rost = true;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < prev) {
+            rost = false;
+        }
+        prev = n;
+    }
+    if (rost) {
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
