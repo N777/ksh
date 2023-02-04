@@ -392,6 +392,33 @@ int main()
             <pre class="step-text__limit-value">14</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    int prev = 0;
+    int counter = 0;
+    int stop_rost = 0;
+    bool rost = true;
+    while (true)
+    {
+        counter += 1;
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < prev && rost) {
+            rost = false;
+            stop_rost = counter;
+        }
+        prev = n;
+    }
+    printf("%d", stop_rost);
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
