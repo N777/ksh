@@ -525,5 +525,109 @@ r<sub>i</sub>, при этом 1 ≤ l<sub>i</sub>, r<sub>i</sub> ≤ N.</p>
             <!---->      </div>
     </div>
 </div>
+Новые:
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1920" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> <br>
+ Разделить массив на две части, поместив в первую элементы, большие среднего арифметического массива, а во вторую — меньшие.
+  </p>
+
+<p><b>Входные данные:</b><br>
+Первая строка число  <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo separator="true">,</mo><mo stretchy="false">(</mo><mi>N</mi><mo>&gt;</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> N, (N\gt0) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">0</span><span class="mclose">)</span></span></span></span></span></span>  -- длина массива.
+
+ Длина массива не более <b>100</b> элементов.
+
+
+Вторая строка <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>&nbsp; натуральных чисел, записанных через пробел
+</p>
+
+<p><b>Выходные данные: </b><br>
+Новый массив, в котором сначала записаны элементы, большие среднего арифметического массива, а потом -- меньшие либо равные. Внутри частей элементы располагать в том порядке, в котором они встретились в исходном массиве.
+</p>
+
+<p><span style="color: #64b0f4;">
+  <b>Подсказки:</b>
+</span><br>
+Среднее арифметическое равняется сумме всех элементов массива, делённой на количество элементов.
+</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">5
+10 93 22 75 12
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">93 75 10 22 12</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Input 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">4
+4 3 2 1
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">4 3 2 1</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1938" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>В заданном массиве поменять местами первую и вторую половины.</p>
+
+<p><strong>Входные данные:</strong><br>
+Первая строка число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo separator="true">,</mo><mo stretchy="false">(</mo><mi>N</mi><mo>&gt;</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> N, (N\gt0) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">0</span><span class="mclose">)</span></span></span></span></span></span> -- длина массива (чётное число). Длина массива не более <strong>100</strong> элементов. Вторая строка <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>&nbsp; натуральных чисел, записанных через пробел.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Новый массив, в котором сначала записаны элементы с номерами <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>+</mo><mn>1</mn><mo separator="true">,</mo><mi>k</mi><mo>+</mo><mn>2</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mi>N</mi></mrow><annotation encoding="application/x-tex"> k+1, k+2, \dots, N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.77777em; vertical-align: -0.08333em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>, а потом записаны элементы с номерами <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mn>3</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>k</mi></mrow><annotation encoding="application/x-tex"> 1, 2, 3, \dots, k-1, k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span></span></span></span></span></span>, где <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex"> k </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.03148em;">k</span></span></span></span></span></span> -- номер <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>N</mi><mi mathvariant="normal">/</mi><mn>2</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> (N / 2) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mord">/2</span><span class="mclose">)</span></span></span></span></span></span>-ого члена исходного массива. Между собой значения разделять одним пробелом.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">6
+10 93 3 22 75 12
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">22 75 12 10 93 3</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1956" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p> <br>
+В заданном массиве поменять местами наибольший и наименьший элементы.
+  </p>
+
+<p><b>Входные данные:</b><br>
+Первая строка число  <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo separator="true">,</mo><mo stretchy="false">(</mo><mi>N</mi><mo>&gt;</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> N, (N\gt0) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">0</span><span class="mclose">)</span></span></span></span></span></span>  -- длина массива. Длина массива не более <b>100</b> элементов. Вторая строка <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>&nbsp; натуральных чисел, записанных через пробел. </p>
+
+<p><b>Выходные данные: </b><br>
+Новый массив, в котором на месте минимума(ов) стоит максимум, а на месте максимума(ов) стоит минимум. Остальные элементы массива остаются на прежних местах.
+</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">5
+10 93 22 75 12
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">93 10 22 75 12</pre>
+
+<!---->      </div>
+  </div>
+</div>
 </body>
 </html>
