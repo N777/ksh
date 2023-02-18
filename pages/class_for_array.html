@@ -18,6 +18,33 @@
 </head>
 <body class="container">
 <a href="../index.html">Главная</a>
+<details>
+            <summary>Пример ввода и вывода массива</summary>
+            <pre>
+#include &lt;vector&gt;
+
+using namespace std;
+
+int main()
+{
+    vector &lt;int&gt; array;
+    int n = 0;
+    scanf_s("%d", &n); // считываем сколько надо ввести
+    int digit = 0;
+    // в цикле считываем n чисел
+    for (int i = 0; i < n; i++)
+    {
+        scanf_s("%d", &digit);
+        array.push_back(digit);
+    }
+    // вывод всех элементов массивы
+    for(int digit: array)
+    {
+        printf("%d", digit);
+    }
+}
+            </pre>
+        </details>
 <div class="step-wrapper">
     <div class="step-inner page-fragment">
         <div id="ember1040" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span>

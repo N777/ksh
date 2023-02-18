@@ -49,7 +49,10 @@
                 <strong>Sample Output 2:</strong>
             </p>
             <pre class="step-text__limit-value"></pre>
-
+            <details>
+                <summary>Блок схема решения</summary>
+                <img src="../images/Последовательность_1.png" alt="Блок схема">
+            </details>
             <!---->      </div>
     </div>
 </div>
@@ -151,6 +154,32 @@
             <pre class="step-text__limit-value">YES</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    bool polozitelnaya = true;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < 0) {
+            polozitelnaya = false;
+        }
+    }
+    if (polozitelnaya) {
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
@@ -231,6 +260,26 @@
             <pre class="step-text__limit-value">1 3</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+	int prev = 0;
+    scanf_s("%d", &n);
+	for (int i = 0; i < n; i++)
+	{
+		int digit = 0;
+		scanf_s("%d", &digit);
+		if (digit != prev) {
+			printf("%d ", digit);
+			prev = digit;
+		}
+	}
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
@@ -268,6 +317,34 @@
             <pre class="step-text__limit-value">NO</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    int prev = 0;
+    bool rost = true;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < prev) {
+            rost = false;
+        }
+        prev = n;
+    }
+    if (rost) {
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
@@ -315,6 +392,33 @@
             <pre class="step-text__limit-value">14</pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    int prev = 0;
+    int counter = 0;
+    int stop_rost = 0;
+    bool rost = true;
+    while (true)
+    {
+        counter += 1;
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (n < prev && rost) {
+            rost = false;
+            stop_rost = counter;
+        }
+        prev = n;
+    }
+    printf("%d", stop_rost);
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
@@ -352,6 +456,30 @@
             <pre class="step-text__limit-value">2729 2031 3234 3337 2484 5051 </pre>
 
             <!---->      </div>
+        <details>
+            <summary>Решение</summary>
+            <pre>
+int main()
+{
+    int n = 0;
+    bool start_print = false;
+    while (true)
+    {
+        scanf_s("%d", &n);
+        if (n == -9999) {
+            break;
+        }
+        if (start_print) {
+            printf("%d ", n);
+        }
+        if (n == 2517) {
+            start_print = true;
+        }
+    }
+
+}
+            </pre>
+        </details>
     </div>
 </div>
 <div class="step-wrapper">
