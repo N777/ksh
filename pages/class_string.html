@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- CSS only -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="test.css"/>
+    <link rel="stylesheet" type="text/css" href="self.css"/>
+    <link rel="stylesheet" type="text/css" href="katex.css"/>
+    <title>Задачи</title>
+</head>
+<body class="container">
+<a href="../index.html">Главная</a>
+<div class="step-wrapper">
+    <div class="step-inner page-fragment">
+        <div id="ember1338" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Длина строки.<br>
+Подсчитать количество символов в строке, без учёта нуль-символа.</p>
+
+<p><strong>Входные данные:</strong><br>
+Символьная строка. Длина строки не превышает 30 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Одно целое число -- длина входной символьной строки.</p>
+
+<p><span style="color: #64b0f4;"><strong>Подсказки:</strong> </span><br>
+Формат входных данных: "YoungCoder.Ru\0\n"</p></span></div>
+
+        <div class="step-text-wrapper">
+            <p class="step-text__limit-title">
+                <strong>Sample Input<!----> :</strong>
+            </p>
+            <pre class="step-text__limit-value">YoungCoder.Ru\0\n"</p></span>
+        </div>
+
+        <div class="step-text-wrapper">
+            <p class="step-text__limit-title">
+                <strong>Sample Input<!----> :</strong>
+            </p>
+            <pre class="step-text__limit-value">YoungCoder.Ru</pre>
+            <p class="step-text__limit-title">
+                <strong>Sample Output<!----> :</strong>
+            </p>
+            <pre class="step-text__limit-value">13</pre>
+
+            <!---->      </div>
+    </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1373" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Слова.<br>
+Подсчитать количество слов в строке. Под словом будем понимать непустую последовательность символов, разделённую знаками пробела.</p>
+
+<p><strong>Входные данные:</strong><br>
+Символьная строка, состоящая из слов, разделённых пробелами. Длина строки не превышает 100 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Одно целое число -- количество слов во входной символьной строке.</p>
+
+<p><span style="color: #64b0f4;"><strong>Внимание: </strong><span style="color: #000000;">﻿здесь и далее формат строки такой: "YoungCoder.ru 2014 - 2018\n\0".</span></span></p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">YoungCoder.Ru 2014 - 2018
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">4</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1391" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Поиск символа<br>
+Найти в строке заданный символ.</p>
+
+<p><strong>Входные данные:</strong><br>
+Первая строка -- символ, который необходимо найти. Затем с новой строки записана символьная строка, в которой нужно осуществить поиск.&nbsp;Длина строки не превышает 100 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Одно целое число -- позиция первого вхождения искомого символа в во входную строку или число -1, если символ не найден.</p>
+
+<p><span style="color: #64b0f4;"><strong>Подсказки:</strong> </span><br>
+Символы в строке нумеруются с нуля.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">d
+YoungCoder.Ru 2014 - 2017
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">7</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Input 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">d
+Happy New Year! 2018
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">-1</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1409" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Системы счисления<br>
+Дана строка, изображающая двоичную запись целого положительного числа. Вывести строку, изображающую десятичную запись этого же числа.</p>
+
+<p><strong>Входные данные:</strong><br>
+Строка символов, содержащая нули и единицы. Длина строки не превышает 20 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Строка, отображающее число, которое соответствует десятичной записи двоичного числа, поступившего на вход.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">10
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">2</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Input 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">1010110001101010
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">44138</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember1926" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Лишние пробелы<br>
+Удалить из строки лишние пробелы. Пробел считается лишним, если:</p>
+
+<ul>
+	<li>стоит в начале строки;</li>
+	<li>стоит в конце строки;</li>
+	<li>ему предшествует пробел.</li>
+</ul>
+
+<p><strong>Входные данные:</strong><br>
+Строка символов. Длина строки не превышает 100 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Исходная строка без лишних пробелов.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">YoungCoder.Ru     2014  -  2017
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">YoungCoder.Ru 2014 - 2017
+</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember2411" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Расстояние Хэмминга.<br>
+Расстояние Хэмминга для двух слов одинаковой длины — это количество позиций, в которых различаются эти слова. Для двух заданных строк найти расстояние между ними.</p>
+
+<p><strong>Входные данные:</strong><br>
+Две символьные строки одинаковой длины, записанные каждая на отдельной строке. Длины строк не превышают 13 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Одно целое число -- расстояние Хэмминга.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">YoungCoder.ru
+youngcoder.ru
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">2</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember2432" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Остров сокровищ <br>
+Капитан Флинт зарыл клад на Острове сокровищ. Есть описание, как найти клад.<br>
+Описание состоит из строк вида: "North 5", где первое слово – одно из "North", "South", "East", "West", а второе целое число – количество шагов, которое необходимо пройти в этом направлении. <br>
+<br>
+Напишите программу, которая по описанию пути к кладу определяет точные координаты клада, считая, что начало координат находится в начале пути, ось OX направлена на восток, ось OY – на север.
+</p>
+
+<p><b>Входные данные:</b><br>
+В первой строке натуральное число <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span>. Затем с новой строки <span class="math-tex"><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex"> N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span></span> строк, указанного формата.
+</p>
+
+<p><b>Выходные данные: </b><br>
+Вывести координаты клада – два целых числа через пробел.
+</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3
+North 2
+East 3
+South 1
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output<!---->:</strong>
+          </p>
+          <pre class="step-text__limit-value">3 1</pre>
+
+<!---->      </div>
+  </div>
+</div>
+<div class="step-wrapper">
+  <div class="step-inner page-fragment">
+    <div id="ember3002" class="html-content rich-text-viewer ember-view" data-processed=""><!----><span><p>Комментарии<br>
+Удалить часть символьной строки, заключенную между последовательностями символов /* и */.</p>
+
+<p><strong>Входные данные:</strong><br>
+Строка символов, содержащая не более одной последовательности символов вида /* ... */.&nbsp; В строке могут содержаться непарные символы */ и /*, их удалять не нужно. Длина строки не превышает 100 символов.</p>
+
+<p><strong>Выходные данные: </strong><br>
+Вывести исходную строку, преобразованную указанным способом.</p></span></div>
+
+      <div class="step-text-wrapper">
+          <p class="step-text__limit-title">
+            <strong>Sample Input 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">Young/* cut it */Coder.ru
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 1:</strong>
+          </p>
+          <pre class="step-text__limit-value">YoungCoder.ru
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Input 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">*/Young/* cut it */Coder.ru
+</pre>
+          <p class="step-text__limit-title">
+            <strong>Sample Output 2:</strong>
+          </p>
+          <pre class="step-text__limit-value">*/YoungCoder.ru
+</pre>
+
+<!---->      </div>
+  </div>
+</div>
+</body>
+</html>
